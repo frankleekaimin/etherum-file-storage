@@ -11,3 +11,7 @@ To run this, do the following steps:
 3) Run the web server located at ../web-server with the command "npm run dev".
 4) A customer can upload his files and add Etherum to the smart contract at "<web server>/home". (For my computer, I ran my webserver on port 3000, so the webpage for the customer to access is "localhost:3000/home".
 5) The server admin can upload the proof of storing his files on "<web server>/admin".
+
+The smart contract is located at "../simple-storage/contracts/Storage.sol" and "../webserver/blockchain/contracts".
+The webpage for the customer is located at "../webserver/pages/home".
+The webpage for the server is located at "../webserver/pages/admin".
