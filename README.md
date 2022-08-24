@@ -2,7 +2,7 @@
 Decentralised file storage
 
 An basic web3 application + smart contract I created for an assignment. The purpose of this contract is to allow a server to prove to a client that a file is being stored on the blockchain.
-For demo purposes, the file is stored as a string. The smart contract works by paying out 2 ETH to the server when the server uploads the file to the smart contract for verification. (This function can only be executed once every 5 blocks mined). The smart contract will verify the file by checking its hash and file length (to prevent the server from cheating with a file that happens to have the same hash but smaller size).
+For demo purposes, the file is stored as a string. The smart contract will periodically (every 5 blocks) pay out 2 ETH to the server if the server uploads the customer's file to the smart contract for verification. The smart contract verifies the file by checking its hash and file length (to prevent the server from cheating with a file that happens to have the same hash but smaller size).
 
 To run this, do the following steps:
 
